@@ -9,4 +9,6 @@
 /vendor/
 ###< symfony/framework-bundle ###
 
+# Ignorar os arquivos do PHPStorm
+
 .idea/

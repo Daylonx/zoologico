@@ -17,4 +17,14 @@ class Hellocontroller
     {
         return new Response(content:'Olá, Dinossauro!');
     }
+    #[Route('//mamiferos')]
+    public function mamiferos(): Response
+    {
+        return new Response(content:'Olá, mamiferos!');
+    }
+    #[Route('//invertebrados')]
+    public function invertebrados(): Response
+    {
+        return new Response(content:'Olá, invertebrados!');
+    }
 }
