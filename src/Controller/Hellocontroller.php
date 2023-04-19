@@ -47,9 +47,10 @@ class Hellocontroller
     {
         return new Response(content:'Olá, carnivoros!');
     }
-    #[Route('//roedor')]
-    public function roedor(): Response
+    #[Route('//roedores')]
+    public function roedores(): Response
     {
-        return new Response(content:'Olá, roedor!');
+        return new Response(content:'Olá, roedores!');
+
     }
 }
