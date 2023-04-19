@@ -37,4 +37,9 @@ class Hellocontroller
     {
         return new Response(content:'Olá, aves!');
     }
+    #[Route('//felinos')]
+    public function felinos(): Response
+    {
+        return new Response(content:'Olá, felinos!');
+    }
 }
