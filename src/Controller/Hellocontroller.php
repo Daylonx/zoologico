@@ -32,4 +32,9 @@ class Hellocontroller
     {
         return new Response(content:'Olá, insetos!');
     }
+    #[Route('//aves')]
+    public function aves(): Response
+    {
+        return new Response(content:'Olá, aves!');
+    }
 }
