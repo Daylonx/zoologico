@@ -41,5 +41,10 @@ class Hellocontroller
     public function felinos(): Response
     {
         return new Response(content:'Olá, felinos!');
+    }\
+    #[Route('//carnivoros')]
+    public function carnivoros(): Response
+    {
+        return new Response(content:'Olá, carnivoros!');
     }
 }
